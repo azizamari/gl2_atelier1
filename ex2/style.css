@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  #monParagraphe {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 10px;
+  }

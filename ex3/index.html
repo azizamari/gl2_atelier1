@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Atelier GL2 | ex3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="todo-form">
+            <label for="todoName">Nom :</label><br>
+            <input type="text" id="todoName" placeholder="Nom de la tâche"><br>
+            <label for="todoContent">Contenu :</label><br>
+            <textarea id="todoContent" placeholder="Détails de la tâche"></textarea><br>
+            <button onclick="addTodo()" style="background-color: lightskyblue;">Ajouter Todo</button>
+            <div class="todo-container" id="todoContainer">
+            </div>
+        </div>
+
+
+        <script src="main.js"></script>
+
+    </body>
+</html>
